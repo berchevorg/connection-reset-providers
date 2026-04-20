@@ -41,6 +41,6 @@ provider "null" {
   # Configuration options
 }
 resource "random_pet" "name" {
-  length    = 3
+  length    = 4
   separator = "-"
 }
